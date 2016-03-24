@@ -1,0 +1,11 @@
+Source: wb-mqtt-am2320
+Maintainer: Evgeny Boger <boger@contactless.ru>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9), pkg-config
+
+Package: wb-mqtt-am2320
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, mosquitto-clients, python-mosquitto, python-smbus
+Description: MQTT driver for am2320
