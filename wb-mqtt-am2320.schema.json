@@ -16,7 +16,7 @@
 		"i2c_bus": {
 			"type": "integer",
 			"title": "I2C bus number",
-			"enum": [0, 1],
+			"minimum": 0,
 			"default": 1,
 			"propertyOrder": 2
 		},
